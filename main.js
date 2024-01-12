@@ -1,3 +1,4 @@
-let cards = querySelectorAll('div')
-cards = addEventListener(click, () => 
-(console.Log (click)))
+let cards = document.querySelectorAll('div');
+cards = addEventListener("click", () => {
+  console.log ("click")
+})

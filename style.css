@@ -12,7 +12,11 @@ body {
   border: solid 2px; 
 }
 
-p {
+p{
   padding: 0px 20px;
 }
 
+.carte:active {
+  background-color: transparent;
+  transition: background-color 800ms ease;
+}
